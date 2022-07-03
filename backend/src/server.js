@@ -5,11 +5,13 @@ const routes = require('./routes');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://dmelo:<8k8n36ng>@slumfood.hfoax.mongodb.net/?retryWrites=true&w=majority', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-
-})
+/*
+mongoose.connect('', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  
+  })
+*/
 
 // GET= BUSCAR UMA INFOR, POST= CRIAR, PUT=EDITAR, DELETE
 // req.query = Acessar query params

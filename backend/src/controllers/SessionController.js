@@ -7,7 +7,9 @@
 
 module.exports = {
  store(req, res) {
-    return res.json({ message:'Hello World' })
+   const { email } = req.body;
  }
 
 };
+
+//   return res.json({ message:'Hello World' })
